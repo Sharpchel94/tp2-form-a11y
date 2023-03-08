@@ -173,7 +173,7 @@
                     </p>
                 </div>
             </fieldset>
-            <fieldset>
+            <fieldset class="formChoixChambre">
                 <legend>
                     <h2>3. Choix chambre et forfait </h2>
                 </legend>
@@ -182,6 +182,29 @@
                     <!-- Trois boutons radio pour le choix du type de chambre simple, double ou familiale 
                 Les boutons doivent être des images cliquables: utiliser images/types-de-chambre -->
 
+                <input type="radio" name="litChambre" id="unLitDouble" value="unLitDouble" class="screen-reader-only" required>
+                <label for="unLitDouble">
+                    <img src="/images/types-de-chambre/1-lit-double.webp" alt="">
+                    <span class="lit">Un lit double</span>
+                </label>
+            
+                <input type="radio" name="litChambre" id="deuxLitDouble" value="deuxLitDouble" class="screen-reader-only">
+                <label for="deuxLitDouble">
+                    <img src="/images/types-de-chambre/2-lits-double.jpg" alt="">
+                    <span class="lit">Deux lit double</span>
+                </label> 
+
+                <input type="radio" name="litChambre" id="chambreFamiliale" value="chambreFamiliale" class="screen-reader-only">
+                <label for="chambreFamiliale">
+                    <img src="/images/types-de-chambre/chambre-familiale.jpg" alt="">
+                    <span class="lit">Chambre Familiale</span>
+                </label>
+                
+                <input type="checkbox" name="dejeuner" id="inclureDejeuner" value="inclureDejeuner" class="screen-reader-only">
+                <label for="dejeuner">
+                    <span class="dejeuner">Inclure le petit déjeuner s'il-vous-plaît</span>
+                </label>
+                
                     <!-- [case à cocher] Inclure le petit déjeuner s'il-vous-plaît -->
 
                     <p> Le coût du petit déjeûner des adultes est de 25$ CAN, pour les enfants de moins de 12 ans c'est
