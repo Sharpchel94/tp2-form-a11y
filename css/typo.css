@@ -42,6 +42,7 @@ h4,
 .h4 {
     font-family: 'News Cycle', sans-serif;
     font-weight: 700;
+    
 }
 
 body {
@@ -60,6 +61,8 @@ body {
     font-size: 1.6rem;
     /* facteur multiplicateur de la taille de la police 1.375x16 = 22 */
     line-height: 1.375;
+    display: flex;
+    justify-content:space-around;
 }
 
 @media (min-width: 600px) {
